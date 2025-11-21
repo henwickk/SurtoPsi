@@ -36,7 +36,7 @@ body{
     background-color: #FEF9F3;
     grid-area: caixa;
 }
-a{
+.deco{
     margin-top: 25px;
     text-decoration: none;
     color: #466F61;
