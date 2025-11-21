@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade</title>
-    <link rel="stylesheet" href="/css/ati.css">
+    <link rel="stylesheet" href="css/ati.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
@@ -16,7 +16,7 @@
             <h6>Gestão atividades</h6>
         </div>
 
-        <a href="/pages/dashboard.html" class="animacao">Dashboard</a>
+        <a href="pages/dashboard.html" class="animacao">Dashboard</a>
         <a href="" class="ativado">Registrar</a>
         <a href="" class="animacao">Atividades</a>
 
@@ -63,7 +63,15 @@
                     <label>Data</label>
                     <input type="date">
 
-                    
+                    <label for="">Horário</label>
+                    <input type="time">
+
+                    <label>Encaminhamento</label>
+                    <input type="text">
+
+                    <label for="">Observações</label>
+                    <textarea name="obs" id="obs"></textarea>
+
                 </Form>
                 </p>
                 <button id="closeModal">Fechar</button>
@@ -94,7 +102,7 @@
             </div>
         </div>
     </div>
-    <script src="/script/script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
