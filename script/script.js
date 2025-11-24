@@ -50,3 +50,17 @@ openBtn4.addEventListener('click', () => {
 closeBtn4.addEventListener('click', () => {
   overlay4.style.display = 'none';
 });
+
+  const codigoFrequencia = "presenca-12345"; // aqui você muda pro código que quiser
+
+  new QRCode(document.getElementById("qrcode"), {
+    text: codigoFrequencia,
+    width: 256,
+    height: 256
+  });
+
+    new QRCode(document.getElementById("qrcode2"), {
+    text: codigoFrequencia,
+    width: 256,
+    height: 256
+  });

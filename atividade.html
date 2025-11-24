@@ -55,21 +55,23 @@
     <div>
         <div id="overlay" class="overlay">
             <div class="modal">
-                <h2>Meu Modal</h2>
-                <p><Form>
-                    <label>Nome:</label>
-                    <input type="text">
+                <h2>Registro Individual</h2>
+                <p>
+                <Form>
+                    <label>Nome:</label><br>
+                    <input type="text"><br>
 
-                    <label>Data:</label>
-                    <input type="date">
+                    <label>Data:</label><br>
+                    <input type="date"><br>
 
-                    <label for="">Horário:</label>
-                    <input type="time">
+                    <label for="">Horário:</label><br>
+                    <input type="time"><br>
 
-                    <label>Encaminhamento:</label>
-                    <input type="text">
+                    <label>Encaminhamento:</label><br>
+                    <input type="text"><br>
 
-                    <label for="">Observações:</label>
+
+                    <label for="">Observações:</label><br>
                     <textarea name="obs" id="obs"></textarea>
 
                 </Form>
@@ -80,16 +82,47 @@
 
         <div id="overlay2" class="overlay2">
             <div class="modal2">
-                <h2>Meu Modal</h2>
-                <p>Conteúdo do modal aqui.</p>
+                <h2>Registro Coletiva</h2>
+                <form action="">
+                    <label>Título:</label><br>
+                    <input type="text"><br>
+
+                    <label>Palestrantes:</label><br>
+                    <input type="text"><br>
+
+                    <label for="">Turmas:</label><br>
+                    <input type="text"><br>
+
+                    <label>Materiais:</label><br>
+                    <input type="text"><br>
+
+                    <button id="gerar">Gerar QR Code</button>
+                    <div Id="qrcode"></div>
+
+                </form>
                 <button id="closeModal2">Fechar</button>
             </div>
         </div>
 
         <div id="overlay3" class="overlay3">
             <div class="modal3">
-                <h2>Meu Modal</h2>
-                <p>Conteúdo do modal aqui.</p>
+                <h2>Registro Colaborativo</h2>
+                <form action="">
+                    <label>Título:</label><br>
+                    <input type="text"><br>
+
+                    <label>Data:</label><br>
+                    <input type="date"><br>
+
+                    <label for="">Horário:</label><br>
+                    <input type="time"><br>
+
+                    <label>Colaboradores:</label><br>
+                    <input type="text"><br>
+
+                    <button id="gerar">Gerar QR Code</button>
+                    <div id="qrcode2"></div>
+                </form>
                 <button id="closeModal3">Fechar</button>
             </div>
         </div>
@@ -102,6 +135,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script src="script/script.js"></script>
 </body>
 
